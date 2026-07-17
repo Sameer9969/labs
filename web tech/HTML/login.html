@@ -1,0 +1,78 @@
+<!-- HTML5 Document -->
+<!DOCTYPE html>
+
+<!-- HTML Start -->
+<html>
+
+<head>
+
+    <!-- Browser Tab Title -->
+    <title>Login Page</title>
+
+</head>
+
+<!-- Body Start -->
+<body>
+
+    <!-- Center me sab kuch dikhane ke liye -->
+    <center>
+
+        <!-- Page Heading -->
+        <h1>Login Page</h1>
+
+        <!--
+            Image Add Karna
+            src = Image ka path
+            alt = Agar image load na ho to ye text dikhega
+            width = Image ki width
+        -->
+        <img src="login.png" alt="Login Image" width="150">
+
+        <br><br>
+
+        <!-- Login Form Start -->
+        <form action="login.php" method="post">
+
+            <!-- Username Label -->
+            <label for="username">Username :</label>
+
+            <!-- Username Input -->
+            <input
+                type="text"
+                id="username"
+                name="username"
+                placeholder="Enter Username"
+                required
+            >
+
+            <br><br>
+
+            <!-- Password Label -->
+            <label for="password">Password :</label>
+
+            <!-- Password Input -->
+            <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter Password"
+                required
+            >
+
+            <br><br>
+
+            <!-- Login Button -->
+            <input type="submit" value="Login">
+
+            <!-- Reset Button -->
+            <input type="reset" value="Clear">
+
+        </form>
+        <!-- Login Form End -->
+
+    </center>
+
+</body>
+
+<!-- HTML End -->
+</html>
