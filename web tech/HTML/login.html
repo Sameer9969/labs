@@ -1,78 +1,44 @@
-<!-- HTML5 Document -->
 <!DOCTYPE html>
-
-<!-- HTML Start -->
 <html>
 
 <head>
-
-    <!-- Browser Tab Title -->
-    <title>Login Page</title>
-
+<title>Login</title>
 </head>
 
-<!-- Body Start -->
 <body>
 
-    <!-- Center me sab kuch dikhane ke liye -->
-    <center>
+<center>
 
-        <!-- Page Heading -->
-        <h1>Login Page</h1>
+<h2>Student Login</h2>
 
-        <!--
-            Image Add Karna
-            src = Image ka path
-            alt = Agar image load na ho to ye text dikhega
-            width = Image ki width
-        -->
-        <img src="login.png" alt="Login Image" width="150">
+<form>
 
-        <br><br>
+Enrollment Number
 
-        <!-- Login Form Start -->
-        <form action="login.php" method="post">
+<br><br>
 
-            <!-- Username Label -->
-            <label for="username">Username :</label>
+<input type="text">
 
-            <!-- Username Input -->
-            <input
-                type="text"
-                id="username"
-                name="username"
-                placeholder="Enter Username"
-                required
-            >
+<br><br>
 
-            <br><br>
+Password
 
-            <!-- Password Label -->
-            <label for="password">Password :</label>
+<br><br>
 
-            <!-- Password Input -->
-            <input
-                type="password"
-                id="password"
-                name="password"
-                placeholder="Enter Password"
-                required
-            >
+<input type="password">
 
-            <br><br>
+<br><br>
 
-            <!-- Login Button -->
-            <input type="submit" value="Login">
+<a href="dashboard.html">
 
-            <!-- Reset Button -->
-            <input type="reset" value="Clear">
+<input type="button" value="Login">
 
-        </form>
-        <!-- Login Form End -->
+</a>
 
-    </center>
+</form>
+
+</center>
 
 </body>
 
-<!-- HTML End -->
 </html>
