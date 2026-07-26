@@ -3,41 +3,27 @@
 
 <head>
 <title>Login</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="login-page">
 
-<center>
+<div class="login-card">
+    <h2>Student Login</h2>
+    <p>Welcome back! Please enter your details.</p>
 
-<h2>Student Login</h2>
+    <form>
+        <label for="enrollment">Enrollment Number</label>
+        <input id="enrollment" type="text" placeholder="Enter enrollment number">
 
-<form>
+        <label for="password">Password</label>
+        <input id="password" type="password" placeholder="Enter password">
 
-Enrollment Number
-
-<br><br>
-
-<input type="text">
-
-<br><br>
-
-Password
-
-<br><br>
-
-<input type="password">
-
-<br><br>
-
-<a href="dashboard.html">
-
-<input type="button" value="Login">
-
-</a>
-
-</form>
-
-</center>
+        <a href="dashboard.html">
+            <button type="button">Login</button>
+        </a>
+    </form>
+</div>
 
 </body>
 
