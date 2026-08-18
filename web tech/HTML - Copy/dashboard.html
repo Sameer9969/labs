@@ -1,178 +1,51 @@
-<!DOCTYPE html>
-<html>
-
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Student ERP Dashboard</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineSpark | Dashboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<body>
+    <div class="page">
+        <header class="hero">
+            <h1>ðŸ“Š Dashboard</h1>
+            <p>Welcome back, Riya! Here is your booking summary.</p>
+            <nav class="nav">
+                <a href="index.html">Home</a>
+                <a href="movies.html">Movies</a>
+                <a href="booking.html">Book Now</a>
+                <a href="profile.html">Profile</a>
+            </nav>
+        </header>
 
-<body class="dashboard-page">
+        <section class="section card-grid">
+            <div class="card">
+                <h3>My Tickets</h3>
+                <p>2 Active Bookings</p>
+            </div>
+            <div class="card">
+                <h3>Favorite Cinema</h3>
+                <p>Metro Cinema</p>
+            </div>
+            <div class="card">
+                <h3>Reward Points</h3>
+                <p>450 Points</p>
+            </div>
+        </section>
 
-<center>
-
-    <!-- College Heading -->
-    <table border="0" bgcolor="#003366" width="100%" cellpadding="15" class="top-header">
-        <tr>
-            <td align="center">
-                <font color="white" size="7">
-                    <b>🎓 STUDENT ERP SYSTEM 🎓</b>
-                </font>
-                <br>
-                <font color="yellow" size="5">
-                    IMS Engineering College
-                </font>
-            </td>
-        </tr>
-    </table>
-
-    <br>
-
-    <!-- Welcome -->
-    <font size="6" color="darkblue">
-        <b>Welcome, Sandeep Tripathi 👋</b>
-    </font>
-
-    <br><br>
-
-    <marquee behavior="alternate" scrollamount="8">
-        <font color="red" size="5">
-            📢 Welcome to Student ERP Dashboard | Have a Great Day!🫡🫡
-        </font>
-    </marquee>
-
-    <br><br>
-
-    <!-- Dashboard Menu -->
-    <table border="1" cellpadding="20" cellspacing="15" bgcolor="#FFFFFF" class="dashboard-table">
-
-        <tr>
-            <th colspan="3">
-                <font size="6">Dashboard Menu</font>
-            </th>
-        </tr>
-
-        <tr align="center">
-
-            <td bgcolor="#CCFFCC">
-                👤<br><br>
-                <a href="profile.html">
-                    <b>Student Profile</b>
-                </a>
-            </td>
-
-            <td bgcolor="#FFFF99">
-                📚<br><br>
-                <a href="attendance.html">
-                    <b>Attendance</b>
-                </a>
-            </td>
-
-            <td bgcolor="#FFCCCC">
-                📝<br><br>
-                <a href="marks.html">
-                    <b>Marks</b>
-                </a>
-            </td>
-
-        </tr>
-
-        <tr align="center">
-
-            <td bgcolor="#FFCC99">
-                📢<br><br>
-                <a href="notice_board.html">
-                    <b>Notice Board</b>
-                </a>
-            </td>
-
-            <td bgcolor="#FFD699">
-                💰<br><br>
-                <a href="fees.html">
-                    <b>Fee Details</b>
-                </a>
-            </td>
-
-            <td bgcolor="#CCE5FF">
-                📅<br><br>
-                <a href="timetable.html">
-                    <b>Time Table</b>
-                </a>
-            </td>
-
-        </tr>
-
-        <tr align="center">
-
-            <td bgcolor="#E6CCFF">
-                📖<br><br>
-                <a href="library.html">
-                    <b>Library</b>
-                </a>
-            </td>
-
-            <td bgcolor="#F5CBA7">
-                🚪<br><br>
-                <a href="index.html">
-                    <b>Logout</b>
-                </a>
-            </td>
-
-            <td></td>
-
-        </tr>
-
-    </table>
-
-    <br><br>
-
-    <!-- Student Information -->
-    <table border="1" cellpadding="10" width="60%" class="info-table">
-
-        <tr bgcolor="#003366">
-            <th colspan="2">
-                <font color="white" size="5">
-                    Student Information
-                </font>
-            </th>
-        </tr>
-
-        <tr>
-            <td><b>Name</b></td>
-            <td>Sandeep Tripathi</td>
-        </tr>
-
-        <tr>
-            <td><b>Enrollment</b></td>
-            <td>23010XXXXX</td>
-        </tr>
-
-        <tr>
-            <td><b>Branch</b></td>
-            <td>Computer Science & Engineering</td>
-        </tr>
-
-        <tr>
-            <td><b>Semester</b></td>
-            <td>5th Semester</td>
-        </tr>
-
-        <tr>
-            <td><b>CGPA</b></td>
-            <td>8.20</td>
-        </tr>
-
-    </table>
-
-    <br>
-
-    <hr width="80%">
-
-    <font color="gray">
-        © 2026 Student ERP System | Developed using HTML Only
-    </font>
-
-</center>
-
+        <section class="section card-grid">
+            <div class="card">
+                <h3>Quick Links</h3>
+                <p><a href="attendance.html">Now Showing</a></p>
+                <p><a href="fees.html">Offers</a></p>
+                <p><a href="payment.html">Payment</a></p>
+            </div>
+            <div class="card">
+                <h3>Upcoming Show</h3>
+                <p>Sky Riders - 8:30 PM</p>
+            </div>
+        </section>
+    </div>
 </body>
-
 </html>

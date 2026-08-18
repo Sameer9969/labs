@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineSpark | Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+        <header class="hero">
+            <h1>ðŸŽ« Book Your Ticket</h1>
+            <p>Fill in the details to book your seats.</p>
+            <nav class="nav">
+                <a href="index.html">Home</a>
+                <a href="movies.html">Movies</a>
+                <a href="payment.html">Payment</a>
+            </nav>
+        </header>
+
+        <section class="section">
+            <div class="card">
+                <h2>Booking Form</h2>
+                <form>
+                    <label for="movie">Movie</label>
+                    <select id="movie">
+                        <option>Sky Riders</option>
+                        <option>Moonlight City</option>
+                        <option>Neon Dreams</option>
+                    </select>
+
+                    <label for="date">Date</label>
+                    <input id="date" type="text" placeholder="20 July 2026">
+
+                    <label for="tickets">Number of Tickets</label>
+                    <input id="tickets" type="number" value="2">
+
+                    <a class="btn" href="payment.html">Continue to Payment</a>
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

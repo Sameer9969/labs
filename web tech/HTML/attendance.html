@@ -10,6 +10,9 @@
 </head>
 
 <body>
+<div style="position:fixed; top:12px; right:12px; z-index:1000;">
+    <a href="dashboard.html" style="padding:10px 16px; background:#003366; color:white; text-decoration:none; border-radius:10px; font-weight:bold;">🏠 Home</a>
+</div>
 
 <div class="attendance-box">
 
@@ -77,7 +80,10 @@
 
 <br>
 
-<a href="dashboard.html" class="btn">⬅ Back to Dashboard</a>
+<div style="margin:20px 0; display:flex; justify-content:center; gap:12px;">
+    <button onclick="history.back()" style="padding:10px 18px; font-size:16px; border-radius:8px; border:none; background:#003366; color:white; cursor:pointer;">← Back</button>
+    <button onclick="history.forward()" style="padding:10px 18px; font-size:16px; border-radius:8px; border:none; background:#0066cc; color:white; cursor:pointer;">Forward →</button>
+</div>
 
 </div>
 

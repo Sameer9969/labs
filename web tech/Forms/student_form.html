@@ -1,0 +1,98 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Entry Form</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f2f2f2;
+        }
+
+        .form {
+            width: 450px;
+            margin: 40px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="form">
+
+    <h2>Student Entry Form</h2>
+
+    <form>
+
+        <label>Student Name</label>
+        <input type="text" placeholder="Enter student name">
+
+        <label>Student ID</label>
+        <input type="text" placeholder="Enter student ID">
+
+        <label>Date of Birth</label>
+        <input type="date">
+
+        <label>Gender</label>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Other
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter email">
+
+        <label>Mobile Number</label>
+        <input type="tel" placeholder="Enter mobile number">
+
+        <label>Course</label>
+        <select>
+            <option>Select Course</option>
+            <option>B.Tech</option>
+            <option>BCA</option>
+            <option>MCA</option>
+            <option>M.Tech</option>
+        </select>
+
+        <label>Address</label>
+        <textarea rows="4" placeholder="Enter address"></textarea>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
+```

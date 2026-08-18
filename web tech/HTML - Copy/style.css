@@ -1,127 +1,163 @@
-body {
+﻿body {
     font-family: Arial, sans-serif;
     margin: 0;
+    background: #f4f6fb;
+    color: #1f2937;
 }
 
-.dashboard-page {
-    background: linear-gradient(135deg, #eaf7ff, #d8ecff);
-    padding-bottom: 30px;
-}
-
-.top-header {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-.dashboard-table {
-    border-collapse: collapse;
-    background: #ffffff;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
-    border-radius: 12px;
-    overflow: hidden;
-}
-
-.dashboard-table th {
-    background: #99CCFF;
-    padding: 12px;
-}
-
-.dashboard-table td {
-    border: 1px solid #dceeff;
+.page {
+    max-width: 1150px;
+    margin: 0 auto;
     padding: 20px;
-    min-width: 150px;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.dashboard-table td:hover {
-    transform: translateY(-3px);
-    box-shadow: inset 0 0 0 1px #9fd0ff;
-    background: #f6fbff;
-}
-
-.dashboard-table a {
-    text-decoration: none;
-    color: #003366;
-}
-
-.info-table {
-    border-collapse: collapse;
-    background: #ffffff;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-}
-
-.info-table th {
-    background: #003366;
-}
-
-.info-table td {
-    padding: 10px 15px;
-    border: 1px solid #dceeff;
-}
-
-.login-page {
-    background: linear-gradient(135deg, #eef7ff, #cfe4ff);
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.login-card {
-    background: #ffffff;
-    width: 340px;
-    padding: 30px 32px;
-    border-radius: 16px;
-    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.15);
-}
-
-.login-card h2 {
-    margin: 0 0 8px;
-    color: #003366;
-}
-
-.login-card p {
-    margin: 0 0 20px;
-    color: #5b6b7a;
-}
-
-.login-card label {
-    display: block;
-    margin-bottom: 6px;
-    font-weight: bold;
-    color: #003366;
-}
-
-.login-card input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 14px;
-    border: 1px solid #c7d8ea;
-    border-radius: 8px;
-    box-sizing: border-box;
-}
-
-.login-card button {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 8px;
-    background: #003366;
+.hero {
+    background: linear-gradient(135deg, #111827, #7c3aed);
     color: white;
-    font-weight: bold;
-    cursor: pointer;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
-.login-card a {
+.hero h1 {
+    margin: 0 0 8px;
+    font-size: 2rem;
+}
+
+.hero p {
+    margin: 0 0 15px;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.nav a {
     text-decoration: none;
+    color: white;
+    background: rgba(255,255,255,0.15);
+    padding: 8px 12px;
+    border-radius: 999px;
 }
 
-.marks-box {
-    width: 80%;
-    margin: auto;
-    margin-top: 30px;
+.section {
+    margin-top: 22px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 18px;
+}
+
+.card {
     background: white;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0px 0px 15px gray;
+    padding: 18px;
+    border-radius: 16px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+.card h2, .card h3 {
+    margin-top: 0;
+}
+
+.movie-card {
+    padding: 16px;
+    background: #fff7ed;
+    border-radius: 14px;
+}
+
+.movie-card .tag {
+    display: inline-block;
+    background: #ef4444;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+}
+
+.btn {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    padding: 9px 14px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.btn-secondary {
+    background: #111827;
+}
+
+form {
+    display: grid;
+    gap: 12px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select, textarea {
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+.table th, .table td {
+    padding: 10px;
+    border: 1px solid #e5e7eb;
+    text-align: left;
+}
+
+.table th {
+    background: #e0e7ff;
+}
+
+.badge {
+    display: inline-block;
+    padding: 5px 9px;
+    border-radius: 999px;
+    background: #dcfce7;
+    color: #166534;
+}
+
+footer {
+    margin: 24px 0 8px;
     text-align: center;
+    color: #6b7280;
+}
+
+.seat-row {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-top: 8px;
+}
+
+.seat-box {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 6px;
+    background: #d1fae5;
+    color: #065f46;
+    font-weight: bold;
+}
+
+.seat-box.booked {
+    background: #fca5a5;
+    color: #7f1d1d;
 }
